@@ -1,0 +1,31 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "nebula:block/basic_gas_cable_middle" }
+    },
+    {
+      "when": { "north": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side" }
+    },
+    {
+      "when": { "east": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side",  "y": 90 }
+    },
+    {
+      "when": { "south": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side", "y": 180 }
+    },
+    {
+      "when": { "west": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side", "y": 270 }
+    },
+    {
+      "when": { "up": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side", "x": 270 }
+    },
+    {
+      "when": { "down": "true" },
+      "apply": { "model": "nebula:block/basic_gas_cable_side", "x": 90 }
+    }
+  ]
+}

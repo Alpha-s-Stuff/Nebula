@@ -1,0 +1,9 @@
+{
+  "parent": "nebula:block/basic_gas_cable_middle",
+  "display": {
+    "gui": {
+      "rotation": [-56.25,0,-45],
+      "scale": [1.25,1.25,1.25]
+    }
+  }
+}

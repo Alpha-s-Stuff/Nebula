@@ -1,0 +1,9 @@
+{
+  "dimension": "nebula:space",
+  "radius": 12,
+  "atmosphereHeight": 256,
+  "atmosphereGases": {
+    "nebula:hydrogen": 50,
+    "nebula:oxygen": 50
+  }
+}

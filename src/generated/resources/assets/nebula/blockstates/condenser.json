@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "nebula:block/condenser",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "nebula:block/condenser",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nebula:block/condenser"
+    },
+    "facing=south": {
+      "model": "nebula:block/condenser",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "nebula:block/condenser"
+    },
+    "facing=west": {
+      "model": "nebula:block/condenser",
+      "y": 270
+    }
+  }
+}

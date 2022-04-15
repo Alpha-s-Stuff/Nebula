@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "nebula",
+  "version": "${version}",
+  "name": "Nebula",
+  "description": "A tech based space exploration mod",
+  "authors": [
+    "AlphaMode"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/nebula/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.alphamode.nebula.client.NebulaClient"
+    ],
+    "main": [
+      "me.alphamode.nebula.Nebula"
+    ],
+    "fabric-datagen": [
+      "me.alphamode.nebula.data.NebulaData"
+    ]
+  },
+  "mixins": [
+    "nebula.mixins.json"
+  ],
+  "accessWidener": "nebula.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
