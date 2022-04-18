@@ -3,8 +3,8 @@
 	"textures": {
 		"0": "nebula:block/condenser_top",
 		"1": "nebula:block/condenser_side",
-		"2": "nebula:block/condenser_back",
-		"3": "nebula:block/condenser_front",
+		"2": "nebula:block/condenser_front",
+		"3": "nebula:block/condenser_back_on",
 		"4": "nebula:block/condenser_details",
 		"5": "nebula:block/condenser_bottom",
 		"particle": "nebula:block/condenser_top"
